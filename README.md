@@ -6,6 +6,8 @@ I got here by following the data. I started out as an analyst, and wanting to un
 
 **What's here**
 
+- **[Mande](https://github.com/carlosadelavega/mande-voice-agent)**. A bilingual IT helpdesk voice agent on ElevenLabs Agents that unlocks accounts for callers in Mexican Spanish or English. The language model runs the conversation, but it never decides who gets in. A small FastAPI service checks the caller's authenticator code or Okta Verify push and makes that call. Around it sits a 15-test regression suite written for how Mexican callers actually talk, which found five real problems. Four are fixed and measured, and one is still open.
+
 Two older ML projects I recently cleaned up. Each README includes what I'd do differently today.
 
 - **[Alzheimer's MRI classifier](https://github.com/carlosadelavega/alzheimers-mri-subject-split)**. Stage classification on OASIS brain scans with every split grouped by patient, which avoids the data leakage behind a lot of inflated results in this area. My capstone for the Fusemachines AI Fellowship.
